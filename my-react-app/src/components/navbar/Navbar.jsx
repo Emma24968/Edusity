@@ -5,25 +5,23 @@ import Darkarrow from '../../assets/dark-arrow.png'
 
 function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full h-screen bg-[#413D66] overflow-hidden">
+    <nav className="fixed top-0 left-0 w-full h-screen bg-[#191444] overflow-hidden">
       <img
         src={heroImage}
         alt="hero"
         className="absolute inset-0 w-full h-full object-cover opacity-40"
       />
-      {/* Overlay Color (optional but recommended) */}
-      <div className="absolute inset-0 bg-[#413D66]/70"></div>
       <div className="relative z-10 flex justify-between items-center px-[10%] py-4">
         <img src={logo} alt="logo" width={180} />
 
-        <ul className="text-white flex items-center gap-6">
+        <ul className="text-white flex  items-center gap-6">
           <li>Home</li>
           <li>Program</li>
           <li>About us</li>
           <li>Campus</li>
           <li>Testimonial</li>
           <li>
-            <button className="bg-white text-black p-2 rounded-full">
+            <button className="bg-white text-black px-6 py-3 rounded-full">
               Contact
             </button>
           </li>
@@ -40,7 +38,7 @@ function Navbar() {
           <br /> and experiences needed to excel in the dynamic field of
           education
         </p>
-        <button>Explore more <span><img src={Darkarrow} alt="" /></span></button>
+        <button className="bg-white text-black flex items-center gap-2 justify-center mx-auto mt-6 px-6 py-3 rounded-full">Explore more <span><img src={Darkarrow} width={20} /></span></button>
       </div>{" "}
     </nav>
   );
