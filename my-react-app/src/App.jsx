@@ -1,10 +1,14 @@
 import React from "react";
 import Navbar from "./components/navbar/Navbar";
+import Program from "./components/navbar/Program";
+import Hero from "./components/navbar/Hero";
 
 const App = () => {
   return(
-    <div className="pl-[10%] pr-[10%]">
+    <div className="">
       <Navbar />
+      <Hero />
+      <Program />
     </div>
   ) ;
 };
