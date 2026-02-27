@@ -4,7 +4,7 @@ import heroImage from "../../assets/hero.png";
 
 function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full  bg-black overflow-hidden">
+    <nav className="sticky top-0 left-0 w-full bg-black overflow-hidden">
       
       <div className="relative z-10 flex justify-between items-center px-[10%] py-4">
         <img src={logo} alt="logo" width={180} />

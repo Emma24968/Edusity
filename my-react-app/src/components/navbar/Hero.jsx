@@ -8,7 +8,7 @@ export default function Hero() {
       <img
         src={heroImage}
         alt="hero"
-        className="absolute  inset-0 w-full h-full object-cover opacity-40"
+        className="absolute  inset-0 w-full h-screen object-cover opacity-40"
       />
       <h3 className="text-6xl font-bold">
         We Ensure better education <br /> for a better world
